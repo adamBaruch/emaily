@@ -7,7 +7,7 @@ class Payments extends Component {
   render() {
     return (
       <StripeChekcout 
-        name="Bookly"
+        name="Emaily"
         description="5$ for 5 emails"
         amount={500}
         token={token => this.props.handleToken(token)}
